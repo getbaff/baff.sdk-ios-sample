@@ -1,0 +1,2 @@
+GetBaffFramework.framework/GetBaffFramework filter=lfs diff=lfs merge=lfs -text
+GetBaffFramework.framework/**/* filter=lfs diff=lfs merge=lfs -text
