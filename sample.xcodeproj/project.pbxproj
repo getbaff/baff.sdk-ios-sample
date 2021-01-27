@@ -6,16 +6,67 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		0B647EB525C1CD0700E2A48B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B647EB125C1CD0700E2A48B /* sampleSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0B1E60CC25C1CABF0077148A;
+			remoteInfo = sampleSwift;
+		};
+		0BA82CC625C1CE4C0048F8D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B647E8D25C1CB6500E2A48B /* sampleObjC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DD6839FA2455ABC10084600D;
+			remoteInfo = sampleObjC;
+		};
+		0BA82CC825C1CE4C0048F8D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B647E8D25C1CB6500E2A48B /* sampleObjC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DD683A182455ABC20084600D;
+			remoteInfo = sampleObjCTests;
+		};
+		0BA82CCA25C1CE4C0048F8D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B647E8D25C1CB6500E2A48B /* sampleObjC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DD683A232455ABC20084600D;
+			remoteInfo = sampleObjCUITests;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		0B647E8D25C1CB6500E2A48B /* sampleObjC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = sampleObjC.xcodeproj; path = sampleObjC/sampleObjC.xcodeproj; sourceTree = "<group>"; };
+		0B647EB125C1CD0700E2A48B /* sampleSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = sampleSwift.xcodeproj; path = sampleSwift/sampleSwift.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		0B1E60EC25C1CB2E0077148A = {
 			isa = PBXGroup;
 			children = (
+				0B647EB125C1CD0700E2A48B /* sampleSwift.xcodeproj */,
 				0B647E8D25C1CB6500E2A48B /* sampleObjC.xcodeproj */,
 			);
+			sourceTree = "<group>";
+		};
+		0B647EB225C1CD0700E2A48B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B647EB625C1CD0700E2A48B /* sampleSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BA82CC125C1CE4C0048F8D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BA82CC725C1CE4C0048F8D0 /* sampleObjC.app */,
+				0BA82CC925C1CE4C0048F8D0 /* sampleObjCTests.xctest */,
+				0BA82CCB25C1CE4C0048F8D0 /* sampleObjCUITests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -36,11 +87,52 @@
 			);
 			mainGroup = 0B1E60EC25C1CB2E0077148A;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0BA82CC125C1CE4C0048F8D0 /* Products */;
+					ProjectRef = 0B647E8D25C1CB6500E2A48B /* sampleObjC.xcodeproj */;
+				},
+				{
+					ProductGroup = 0B647EB225C1CD0700E2A48B /* Products */;
+					ProjectRef = 0B647EB125C1CD0700E2A48B /* sampleSwift.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0B647EB625C1CD0700E2A48B /* sampleSwift.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = sampleSwift.app;
+			remoteRef = 0B647EB525C1CD0700E2A48B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0BA82CC725C1CE4C0048F8D0 /* sampleObjC.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = sampleObjC.app;
+			remoteRef = 0BA82CC625C1CE4C0048F8D0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0BA82CC925C1CE4C0048F8D0 /* sampleObjCTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = sampleObjCTests.xctest;
+			remoteRef = 0BA82CC825C1CE4C0048F8D0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0BA82CCB25C1CE4C0048F8D0 /* sampleObjCUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = sampleObjCUITests.xctest;
+			remoteRef = 0BA82CCA25C1CE4C0048F8D0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin XCBuildConfiguration section */
 		0B1E60F125C1CB2E0077148A /* Debug */ = {
