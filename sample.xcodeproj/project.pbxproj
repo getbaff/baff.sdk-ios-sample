@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
+		0B5F194425C20BD000D1C6C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B5F191825C203C800D1C6C4 /* sampleSwift_legacy.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0B1E60CC25C1CABF0077148A;
+			remoteInfo = sampleSwift_legacy;
+		};
 		0B647EB525C1CD0700E2A48B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0B647EB125C1CD0700E2A48B /* sampleSwift.xcodeproj */;
@@ -51,6 +58,14 @@
 				0B5F191825C203C800D1C6C4 /* sampleSwift_legacy.xcodeproj */,
 				0B647E8D25C1CB6500E2A48B /* sampleObjC.xcodeproj */,
 			);
+			sourceTree = "<group>";
+		};
+		0B5F193D25C20BD000D1C6C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B5F194525C20BD000D1C6C4 /* sampleSwift_legacy.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		0B647EB225C1CD0700E2A48B /* Products */ = {
@@ -98,6 +113,10 @@
 					ProductGroup = 0B647EB225C1CD0700E2A48B /* Products */;
 					ProjectRef = 0B647EB125C1CD0700E2A48B /* sampleSwift.xcodeproj */;
 				},
+				{
+					ProductGroup = 0B5F193D25C20BD000D1C6C4 /* Products */;
+					ProjectRef = 0B5F191825C203C800D1C6C4 /* sampleSwift_legacy.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -106,6 +125,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		0B5F194525C20BD000D1C6C4 /* sampleSwift_legacy.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = sampleSwift_legacy.app;
+			remoteRef = 0B5F194425C20BD000D1C6C4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		0B647EB625C1CD0700E2A48B /* sampleSwift.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;

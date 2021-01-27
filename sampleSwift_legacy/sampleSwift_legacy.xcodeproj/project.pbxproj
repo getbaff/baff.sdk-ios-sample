@@ -13,7 +13,24 @@
 		0B1E60D425C1CABF0077148A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E60D325C1CABF0077148A /* SecondViewController.swift */; };
 		0B1E60D925C1CAC00077148A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B1E60D825C1CAC00077148A /* Assets.xcassets */; };
 		0B1E60DC25C1CAC00077148A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B1E60DA25C1CAC00077148A /* LaunchScreen.storyboard */; };
+		0B5F192525C2054500D1C6C4 /* GetBaffFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B84243425C1D161006CD535 /* GetBaffFramework.framework */; };
+		0B5F192625C2054500D1C6C4 /* GetBaffFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0B84243425C1D161006CD535 /* GetBaffFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0B5F192A25C2055F00D1C6C4 /* GetBaffWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5F192925C2055F00D1C6C4 /* GetBaffWrapper.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0B5F192725C2054500D1C6C4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0B5F192625C2054500D1C6C4 /* GetBaffFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0B12668525C1F02500486368 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -23,6 +40,9 @@
 		0B1E60D825C1CAC00077148A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B1E60DB25C1CAC00077148A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B1E60DD25C1CAC00077148A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B5F192825C2055F00D1C6C4 /* sampleSwift_legacy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sampleSwift_legacy-Bridging-Header.h"; sourceTree = "<group>"; };
+		0B5F192925C2055F00D1C6C4 /* GetBaffWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetBaffWrapper.m; sourceTree = "<group>"; };
+		0B5F192B25C2057000D1C6C4 /* GetBaffWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetBaffWrapper.h; sourceTree = "<group>"; };
 		0B84243425C1D161006CD535 /* GetBaffFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GetBaffFramework.framework; path = ../GetBaffFramework.framework; sourceTree = "<group>"; };
 		0BA82CD025C1CE6E0048F8D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B5F192525C2054500D1C6C4 /* GetBaffFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +62,7 @@
 		0B1E60C325C1CABF0077148A = {
 			isa = PBXGroup;
 			children = (
+				0B5F192425C204DF00D1C6C4 /* GetBaffWrapper */,
 				0B1E60CE25C1CABF0077148A /* sampleSwift_legacy */,
 				0B1E60CD25C1CABF0077148A /* Products */,
 				0B84243325C1D161006CD535 /* Frameworks */,
@@ -69,6 +91,16 @@
 			path = sampleSwift_legacy;
 			sourceTree = "<group>";
 		};
+		0B5F192425C204DF00D1C6C4 /* GetBaffWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				0B5F192925C2055F00D1C6C4 /* GetBaffWrapper.m */,
+				0B5F192825C2055F00D1C6C4 /* sampleSwift_legacy-Bridging-Header.h */,
+				0B5F192B25C2057000D1C6C4 /* GetBaffWrapper.h */,
+			);
+			path = GetBaffWrapper;
+			sourceTree = "<group>";
+		};
 		0B84243325C1D161006CD535 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +119,7 @@
 				0B1E60C825C1CABF0077148A /* Sources */,
 				0B1E60C925C1CABF0077148A /* Frameworks */,
 				0B1E60CA25C1CABF0077148A /* Resources */,
+				0B5F192725C2054500D1C6C4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -108,6 +141,7 @@
 				TargetAttributes = {
 					0B1E60CB25C1CABF0077148A = {
 						CreatedOnToolsVersion = 12.1;
+						LastSwiftMigration = 1210;
 					};
 				};
 			};
@@ -150,6 +184,7 @@
 				0B12668625C1F02500486368 /* FirstViewController.swift in Sources */,
 				0B1E60D425C1CABF0077148A /* SecondViewController.swift in Sources */,
 				0B1E60D025C1CABF0077148A /* AppDelegate.swift in Sources */,
+				0B5F192A25C2055F00D1C6C4 /* GetBaffWrapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +332,7 @@
 				ARCHS = arm64;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A94D8WN9VY;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/..";
@@ -308,6 +344,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.baff.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GetBaffWrapper/sampleSwift_legacy-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -319,6 +357,7 @@
 				ARCHS = arm64;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A94D8WN9VY;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/..";
@@ -330,6 +369,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.baff.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GetBaffWrapper/sampleSwift_legacy-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
