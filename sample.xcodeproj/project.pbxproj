@@ -38,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B5F191825C203C800D1C6C4 /* sampleSwift_legacy.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = sampleSwift_legacy.xcodeproj; path = sampleSwift_legacy/sampleSwift_legacy.xcodeproj; sourceTree = "<group>"; };
 		0B647E8D25C1CB6500E2A48B /* sampleObjC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = sampleObjC.xcodeproj; path = sampleObjC/sampleObjC.xcodeproj; sourceTree = "<group>"; };
 		0B647EB125C1CD0700E2A48B /* sampleSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = sampleSwift.xcodeproj; path = sampleSwift/sampleSwift.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,6 +48,7 @@
 			isa = PBXGroup;
 			children = (
 				0B647EB125C1CD0700E2A48B /* sampleSwift.xcodeproj */,
+				0B5F191825C203C800D1C6C4 /* sampleSwift_legacy.xcodeproj */,
 				0B647E8D25C1CB6500E2A48B /* sampleObjC.xcodeproj */,
 			);
 			sourceTree = "<group>";
