@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DD6839F92455ABC10084600D"
-               BuildableName = "sample.app"
-               BlueprintName = "sample"
-               ReferencedContainer = "container:sample.xcodeproj">
+               BuildableName = "sampleObjC.app"
+               BlueprintName = "sampleObjC"
+               ReferencedContainer = "container:sampleObjC.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DD683A172455ABC20084600D"
-               BuildableName = "sampleTests.xctest"
-               BlueprintName = "sampleTests"
-               ReferencedContainer = "container:sample.xcodeproj">
+               BuildableName = "sampleObjCTests.xctest"
+               BlueprintName = "sampleObjCTests"
+               ReferencedContainer = "container:sampleObjC.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DD683A222455ABC20084600D"
-               BuildableName = "sampleUITests.xctest"
-               BlueprintName = "sampleUITests"
-               ReferencedContainer = "container:sample.xcodeproj">
+               BuildableName = "sampleObjCUITests.xctest"
+               BlueprintName = "sampleObjCUITests"
+               ReferencedContainer = "container:sampleObjC.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DD6839F92455ABC10084600D"
-            BuildableName = "sample.app"
-            BlueprintName = "sample"
-            ReferencedContainer = "container:sample.xcodeproj">
+            BuildableName = "sampleObjC.app"
+            BlueprintName = "sampleObjC"
+            ReferencedContainer = "container:sampleObjC.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -83,9 +83,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DD6839F92455ABC10084600D"
-            BuildableName = "sample.app"
-            BlueprintName = "sample"
-            ReferencedContainer = "container:sample.xcodeproj">
+            BuildableName = "sampleObjC.app"
+            BlueprintName = "sampleObjC"
+            ReferencedContainer = "container:sampleObjC.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
