@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B528AEC25CE0EF400FBB1F8 /* AVProVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B528AEB25CE0EF400FBB1F8 /* AVProVideo.framework */; };
+		0B528AED25CE0EF400FBB1F8 /* AVProVideo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0B528AEB25CE0EF400FBB1F8 /* AVProVideo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0B647EA125C1CC2500E2A48B /* GetBaffFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B647E9D25C1CBE200E2A48B /* GetBaffFramework.framework */; };
 		0B647EA225C1CC2500E2A48B /* GetBaffFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0B647E9D25C1CBE200E2A48B /* GetBaffFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DD6839FF2455ABC10084600D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6839FE2455ABC10084600D /* AppDelegate.m */; };
@@ -45,6 +47,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				0B647EA225C1CC2500E2A48B /* GetBaffFramework.framework in Embed Frameworks */,
+				0B528AED25CE0EF400FBB1F8 /* AVProVideo.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,6 +55,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0B528AEB25CE0EF400FBB1F8 /* AVProVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVProVideo.framework; path = ../AVProVideo.framework; sourceTree = "<group>"; };
 		0B647E9D25C1CBE200E2A48B /* GetBaffFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GetBaffFramework.framework; path = ../GetBaffFramework.framework; sourceTree = "<group>"; };
 		DD6839FA2455ABC10084600D /* sampleObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sampleObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6839FD2455ABC10084600D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -79,6 +83,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B647EA125C1CC2500E2A48B /* GetBaffFramework.framework in Frameworks */,
+				0B528AEC25CE0EF400FBB1F8 /* AVProVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +104,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B528AEA25CE0EF400FBB1F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B528AEB25CE0EF400FBB1F8 /* AVProVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DD6839F12455ABC10084600D = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +120,7 @@
 				DD683A1B2455ABC20084600D /* sampleTests */,
 				DD683A262455ABC20084600D /* sampleUITests */,
 				DD6839FB2455ABC10084600D /* Products */,
+				0B528AEA25CE0EF400FBB1F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};

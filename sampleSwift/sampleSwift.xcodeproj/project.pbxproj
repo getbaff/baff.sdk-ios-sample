@@ -13,6 +13,8 @@
 		0B1E60D425C1CABF0077148A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E60D325C1CABF0077148A /* SecondViewController.swift */; };
 		0B1E60D925C1CAC00077148A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B1E60D825C1CAC00077148A /* Assets.xcassets */; };
 		0B1E60DC25C1CAC00077148A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B1E60DA25C1CAC00077148A /* LaunchScreen.storyboard */; };
+		0B51122425D1EAAE003E06C0 /* AVProVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B51122325D1EAAE003E06C0 /* AVProVideo.framework */; };
+		0B51122525D1EAAE003E06C0 /* AVProVideo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0B51122325D1EAAE003E06C0 /* AVProVideo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0BF33E8725C1DF82007625CD /* GetBaffFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B84243425C1D161006CD535 /* GetBaffFramework.framework */; };
 		0BF33E8825C1DF82007625CD /* GetBaffFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0B84243425C1D161006CD535 /* GetBaffFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -25,6 +27,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				0BF33E8825C1DF82007625CD /* GetBaffFramework.framework in Embed Frameworks */,
+				0B51122525D1EAAE003E06C0 /* AVProVideo.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,6 +42,7 @@
 		0B1E60D825C1CAC00077148A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B1E60DB25C1CAC00077148A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B1E60DD25C1CAC00077148A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B51122325D1EAAE003E06C0 /* AVProVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVProVideo.framework; path = ../AVProVideo.framework; sourceTree = "<group>"; };
 		0B84243425C1D161006CD535 /* GetBaffFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GetBaffFramework.framework; path = ../GetBaffFramework.framework; sourceTree = "<group>"; };
 		0BA82CD025C1CE6E0048F8D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -49,6 +53,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BF33E8725C1DF82007625CD /* GetBaffFramework.framework in Frameworks */,
+				0B51122425D1EAAE003E06C0 /* AVProVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +94,7 @@
 		0B84243325C1D161006CD535 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0B51122325D1EAAE003E06C0 /* AVProVideo.framework */,
 				0B84243425C1D161006CD535 /* GetBaffFramework.framework */,
 			);
 			name = Frameworks;
