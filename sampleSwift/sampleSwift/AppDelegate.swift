@@ -15,7 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
          
-        GetBaffFramework.setMach(&_mh_execute_header)
+        var ptr = _mh_execute_header
+        GetBaffFramework.setMach(&ptr)
         
         return true
     }

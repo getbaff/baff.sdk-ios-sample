@@ -8,7 +8,7 @@
 
 #import "SecondViewController.h"
 
-#import <GetBaffFramework/BaffDelegate.h>
+#import <GetBaffFramework/GetBaffFramework.h>
 
 BaffDelegate* hostDelegate = NULL;
 

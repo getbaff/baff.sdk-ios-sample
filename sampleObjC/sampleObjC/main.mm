@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 
-#import <GetBaffFramework/BaffDelegate.h>
+#import <GetBaffFramework/GetBaffFramework.h>
 
 int main(int argc, char * argv[]) {
     NSString * appDelegateClassName;

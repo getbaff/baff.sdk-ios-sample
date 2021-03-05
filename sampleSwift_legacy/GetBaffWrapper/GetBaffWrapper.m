@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-#include <GetBaffFramework/BaffDelegate.h>
+#include <GetBaffFramework/GetBaffFramework.h>
 
 BaffDelegate* hostDelegate = NULL;
 
